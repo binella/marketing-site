@@ -1,0 +1,132 @@
+@media (max-width: 1200px) {
+	.topimage {
+	  height: 618px;
+	  background-size: 2080px 618px;
+	}
+}
+
+@media (max-width: 960px) {
+	.topimage {
+	  height: 495px;
+	  background-size: 1664px 495px;
+	}
+}
+
+@media (max-width: 768px) {
+	.topimage {
+	  height: 396px;
+	  background-size: 1331px 396px;
+	}
+}
+
+@media (max-width: 614px) {
+	.topimage {
+	  height: 317px;
+	  background-size: 1065px 317px;
+	}
+}
+
+@media (max-width: 491px) {
+	.topimage {
+	  height: 254px;
+	  background-size: 852px 254px;
+	}
+}
+
+@media (max-width: 392px) {
+	.topimage {
+	  height: 203px;
+	  background-size: 682px 203px;
+	}
+}
+
+@media (min-width: 887px) {
+	.benefits .lastone {
+  		margin-right: 0px;
+	}
+}
+
+@media (max-width: 940px) {
+	.buttonnav {
+		text-align: center;
+	}
+}
+
+@media (max-width: 886px) {
+	
+	.benefits {
+		height: auto;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.benefits li {
+		width: 90%;
+		padding-top: 20px;
+		padding-left: 40px;
+	}	
+
+	.desc {
+		text-align: center;
+	}
+
+	.benefits .lastone {
+		padding-bottom: 20px;
+	}
+
+	.blog .lastone {
+		display: none;
+	}
+
+	.mission {
+		display: none;
+	}
+
+	.companydesc {
+		width: 90%;
+		text-align: center;
+	}
+
+	.bios {
+		height: auto;
+	}
+
+	.fullbio {
+		width: 80%;
+		padding: 20px;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+@media (max-width: 589px) {
+	.benefits li {
+		width: 100%;
+	}
+
+	.blog .secondlastone {
+		display: none;
+	}
+
+	.twitter {
+		display: none;
+	}
+
+	.fullbio {
+		width: 100%;
+		padding: 25px;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+	.blog .secondlastone {
+		display: none;
+	}
+
+	.twitter {
+		display: none;
+	}
+}

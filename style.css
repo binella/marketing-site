@@ -1,0 +1,320 @@
+@import url(reset.css);
+
+/* Clearfix */
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+/* Border box everything */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* 
+	Hacker you red: #d12026
+*/ 
+
+/* =============================================================================
+   								Page Defaults and Setup 
+   ========================================================================== */
+
+/*<!-- ============= HEADER SECTION ============= -->*/
+
+.header {
+  background-color: rgb(30,49,51);
+  border-bottom: 5px solid rgb(75,90,92);
+  height: 75px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.bothmenus {
+  margin: 0 auto;
+  text-align: center;
+  width: 960px;
+}
+
+.nav {
+  text-align: center;
+  float: left;
+}
+
+.nav img {
+  vertical-align: middle;
+}
+
+.nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 45px;
+  line-height: 71px;
+}
+
+.nav li a {
+        color:white;
+        font-size:16px;
+        text-decoration: none;
+        padding-bottom: 5px;
+      }
+
+.nav li a:hover {
+          border-top: 8px solid green;
+          padding-top: 14px;
+          color:white;
+        }
+
+.buttonnav {
+  text-align: right;
+  margin-right: 30px;
+
+}
+
+.buttonnav ul li {
+  display: inline-block;
+  padding-top: 25px;
+  padding-right: 10px;
+}
+
+.buttonnav li a {
+        color:white;
+        font-size:16px;
+        text-decoration: none;
+      }
+
+.signup a {
+  vertical-align: right;
+  border: 4px solid red;
+  padding: 5px; 
+  background-color: red;
+  vertical-align: middle;
+}
+
+.login a {
+  vertical-align: right;
+  border: 4px solid green;
+  padding: 5px 10px; 
+  background-color: green;
+  vertical-align: middle;
+}
+
+/*<!-- ============= TOP IMAGE SECTION ============= -->*/
+
+.topimage {
+  height: 773px;
+  background: url(images/hometopimage.jpeg) center top no-repeat;
+  background-size: 2600px 773px;
+}
+
+/*<!-- ============= BENEFITS SECTION ============= -->*/
+
+.benefits {
+  height: 430px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.benefits li {
+  width: 333px;
+  padding-right: 40px;
+  padding-top: 75px;
+  text-align: center;
+  vertical-align: top;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+}
+
+.benefits li.lastone {
+  padding-right: 0;
+  width: 293px;
+}
+
+.benny h2 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif; color: rgb (57,72,74);
+  font-size: 20px;
+  margin: 25px 0px 25px 0px;
+}
+
+.desc {
+  text-align: left; 
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif; color: rgb(221,221,221);
+}
+
+
+
+/*<!-- ============= BLOG SECTION ============= -->*/
+
+.blog {
+  background-image: url(images/homeblogbackground.gif);
+  height: 475px;
+  text-align: center; 
+  margin: 0 auto;
+}
+
+.blog h2 {
+  text-align: center;
+  vertical-align: top;
+  font-family: 'Roboto Slab', serif; color: white;
+  font-size: 25px;
+  padding-top: 70px;
+  padding-bottom: 35px;
+}
+
+.recentpost {
+  width: 293px;
+  padding-right: 40px;
+  font-family: 'Roboto', sans-serif; color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.tempimage {
+  border: 6px solid white;
+}
+
+.summary {
+  padding-top: 25px;
+  text-align: center;
+  padding-bottom: 15px;
+  line-height: 20px;
+}
+
+.readmore {
+  border-top:1px solid #fff;
+  font-family: 'Roboto Slab', serif;
+  display: inline-block;
+}
+
+.readmore h4 {
+  display: inline-block; 
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+.readmore img {
+  display: inline-block; 
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+.recentpost .lastone {
+  padding-right: 0px;
+}
+
+/*<!-- ============= FOOTER SECTION ============= -->*/
+
+
+.footer {
+  background-color: rgb(30,49,51);
+  height: 390px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footerdiv {
+  width: 293px;
+  padding-right: 40px;
+  font-family: 'Roboto', sans-serif 20px; color: white;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 65px;
+}
+
+.footerdiv h2 {
+  padding-bottom: 15px;
+  text-align: left;
+  font-family: 'Roboto Slab', serif; color: white;
+  font-size: 20px;
+}
+
+.mission p {
+  text-align: left;
+  line-height: 20px; 
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; color: rgb(138,140,141);
+}
+
+.footerdiv .lastone {
+  padding-right: 0px;
+}
+
+/*<!-- ============= LEGAL SECTION ============= -->*/
+
+.legal {
+  background-color: rgb(23,26,26);
+  font-family: 'Roboto', sans-serif 20px; color: white;
+}
+
+.legal {
+  text-align: center;
+  margin: 0;
+  padding-top: 1%; 
+  font-family: 'Roboto', sans-serif; color: white;
+}
+
+.legal p {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+
+
+/*<!-- ============= START OF ABOUT US CSS ============= -->*/
+/*<!-- ============= START OF ABOUT US CSS ============= -->*/
+
+.companydesc {
+  font-family: 'Roboto', sans-serif; color: rgb (130,130,130);
+  font-style: italic;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+
+.bios {
+  margin: 0 auto;
+  text-align: center;
+  height: 500px;
+}
+
+.fullbio {
+  width: 293px;
+  padding-right: 40px;
+  padding-top: 30px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+.fullbio h3 {
+  font-family:'Roboto Slab', serif; color: rgb(77,89,91);
+  padding: 12px 0px 12px 0px;
+}
+
+.fullbio h4 {
+  font-family: 'Roboto', sans-serif; color: rgb(221,221,221);
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(216, 216, 216);
+  vertical-align: bottom;
+}
+
+.personalbio {
+  text-align: left;
+  font-family: 'Roboto', sans-serif; color: rgb(105,105,105);
+  font-size: 14px;
+  padding-top: 20px;
+  line-height: 20px;
+}
+/*
+.bios .lastone {
+  padding-right: 0px;
+}*/
